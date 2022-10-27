@@ -1,8 +1,8 @@
 import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 
-import Home from './component/home';
-import About from './component/about';
-import Tag from './component/tag';
+import Home from './pages/home/home';
+import About from './pages/about/about';
+import Tag from './pages/tags/tag';
 
 function App() {
   return (
