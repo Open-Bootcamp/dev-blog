@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route exact path={'/'} element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/tag' element={<Tag />} />
+        <Route path='/tags' element={<Tag />} />
         // TODO: page 404
       </Routes>
     </Router>
