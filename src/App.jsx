@@ -1,8 +1,19 @@
+import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
+
+import Home from './component/home';
+import About from './component/about';
+import Tag from './component/tag';
+
 function App() {
   return (
-    <div className='flex min-h-screen items-center justify-center bg-slate-800'>
-      <h1 className='text-3xl font-bold text-teal-500'>Vite + React!</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path={'/'} element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/tag' element={<Tag />} />
+        // TODO: page 404
+      </Routes>
+    </Router>
   )
 }
 
