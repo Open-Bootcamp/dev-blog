@@ -158,3 +158,4 @@ export default [
     timeRead: 4,
   },
 ]
+export const author =  'Openbootcamp'
