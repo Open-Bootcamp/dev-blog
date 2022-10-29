@@ -1,4 +1,4 @@
-import { Link, useParams } from 'react-router-dom'
+import { Link, Navigate, useParams } from 'react-router-dom'
 import Card from '../../components/Card/Card.jsx'
 import MarkdownRenderer from '../../components/MarkdownRenderer/MarkdownRenderer.jsx'
 import data from '../../data/data.js'
@@ -10,6 +10,8 @@ function Articles() {
   const nextArticle = data.find(
     _article => _article.id === parseInt(articleId) + 1
   )
+
+  if (!article) return <Navigate to='/' />
 
   return (
     <>
@@ -44,8 +46,8 @@ function Articles() {
           <MarkdownRenderer content={article.content} />
         </div>
       </main>
-      <section className='mx-auto flex flex-col p-4 sm:px-10 md:px-20 2xl:px-0 sm:flex-row max-w-7xl flex-wrap gap-8'>
-        <h3 className='basis-full font-bold text-lg'>See other articles:</h3>
+      <section className='mx-auto flex max-w-7xl flex-col flex-wrap gap-8 p-4 sm:flex-row sm:px-10 md:px-20 2xl:px-0'>
+        <h3 className='basis-full text-lg font-bold'>See other articles:</h3>
         <Card article={nextArticle} />
         <Card article={nextArticle} />
       </section>
