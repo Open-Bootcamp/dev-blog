@@ -11,7 +11,7 @@ const Home = () => {
   const data = obtainData(currentPage)
 
   return (
-    <div className='container mx-auto'>
+    <div className='container-custom mx-auto'>
       <Hero author={`${author[0]}`} />
       <div className='flex h-screen flex-col items-center bg-slate-100 px-4 md:px-10'>
         <main className='flex max-w-5xl flex-col flex-wrap gap-8 mb-8 md:flex-row'>
@@ -20,8 +20,8 @@ const Home = () => {
           ))}
         </main>
         <Pagination currentPage={currentPage} totalPages={totalPages} />
-        <Footer />
       </div>
+        <Footer />
     </div>
   )
 }

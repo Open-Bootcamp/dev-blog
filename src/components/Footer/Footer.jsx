@@ -4,9 +4,9 @@ import { author } from '../../data/data.js'
 
 const Footer = () => {
   const year = new Date().getFullYear()
-  console.log(year)
+
   return (
-    <footer className='container pt-8'>
+    <footer className='container-custom'>
       <div
         className='
         sd:item-center m-1 flex flex-col
