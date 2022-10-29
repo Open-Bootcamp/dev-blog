@@ -33,7 +33,7 @@ const Footer = () => {
               </a>
             </li>
               <li class='mx-1 hover:text-openbootcamp-green'>
-              <a href='https://www.tiktok.com/@openbootcamp_' alt='tiktok'>
+              <a href='https://www.linkedin.com/school/openbootcamp-escuela/' alt='tiktok'>
                 linkedin
               </a>
             </li>
