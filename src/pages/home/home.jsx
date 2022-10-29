@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom'
 import Card from '../../components/Card/Card'
+import Footer from '../../components/Footer/Footer'
 import Hero from '../../components/Hero/Hero'
 import Pagination from '../../components/Pagination/Pagination'
 import { author, totalPages, obtainData } from '../../data/data.js'
@@ -19,6 +20,7 @@ const Home = () => {
           ))}
         </main>
         <Pagination currentPage={currentPage} totalPages={totalPages} />
+        <Footer />
       </div>
     </div>
   )
