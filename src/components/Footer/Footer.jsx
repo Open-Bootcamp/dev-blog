@@ -17,7 +17,11 @@ const Footer = () => {
         <p> &copy; {`${year}`}</p>
         {/* author list */}
         <ul className='mx-2 flex grow flex-row justify-center'>
-          <li className='mx-1'>{author}</li>
+          <li className='mx-1'> by : {author[0]},</li>
+          <li className='mx-1'>{author[1]},</li>
+          <li className='mx-1'>{author[2]},</li>
+          <li className='mx-1'>{author[3]}</li>
+
         </ul>
         {/*social media links */}
         <div>

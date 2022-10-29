@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <div className='container mx-auto'>
-      <Hero author={`${author}`} />
+      <Hero author={`${author[0]}`} />
       <div className='flex h-screen flex-col items-center bg-slate-100 px-4 md:px-10'>
         <main className='flex max-w-5xl flex-col flex-wrap gap-8 mb-8 md:flex-row'>
           {data.map((article, index) => (
