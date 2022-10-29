@@ -19,12 +19,12 @@ const Footer = () => {
         {/*social media links */}
         <div>
           <ul className='my-1 flex flex-row  justify-center items-center'>
-            <li class='mx-1 hover:text-openbootcamp-green'>
+            <li className='mx-1 hover:text-openbootcamp-green'>
               <a href='https://twitter.com/Open_Bootcamp' alt='Twitter'>
                 Twitter
               </a>
             </li>
-            <li class='mx-1 hover:text-openbootcamp-green'>
+            <li className='mx-1 hover:text-openbootcamp-green'>
               <a
                 href='https://github.com/Open-Bootcamp'
                 alt='Facebook'
@@ -32,12 +32,12 @@ const Footer = () => {
                 Github
               </a>
             </li>
-              <li class='mx-1 hover:text-openbootcamp-green'>
+              <li className='mx-1 hover:text-openbootcamp-green'>
               <a href='https://www.linkedin.com/school/openbootcamp-escuela/' alt='tiktok'>
                 linkedin
               </a>
             </li>
-            <li class='mx-1 hover:text-openbootcamp-green'>
+            <li className='mx-1 hover:text-openbootcamp-green'>
               <a href='https://www.twitch.tv/openbootcamp' alt='Twitch'>
                 Twitch
               </a>
