@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-img': "url(./src/assets/developers.jpeg)",
+      },
+      colors: {
+        'openbootcamp-green': '#0ce78f',
+        'openbootcamp-blue-light':'#047af3',
+        'openbootcamp-blue-dark': '##161053'
       }
     }
   },
