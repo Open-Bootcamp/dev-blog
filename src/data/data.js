@@ -9,20 +9,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - React \n - Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ``` \n Entonces, tenemos los siguientes lenguajes: \n * Python \n * JavaScript \n * Go',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -35,20 +23,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -61,20 +37,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -87,20 +51,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```py \n print("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -113,20 +65,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -139,20 +79,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -165,20 +93,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -191,20 +107,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -217,20 +121,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -243,20 +135,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -269,20 +149,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -295,20 +163,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -321,20 +177,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -347,20 +191,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
@@ -373,20 +205,8 @@ const data = [
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
-    content: `
-    En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind.
-
-    - [ ] React
-    - [ ] Tailwind
-
-    ## Contenido
-
-    Esta es la prueba de contenido
-
-    ### Descripción
-
-    Esto es una descripción
-    `,
+    content:
+      'En este artículo vamos a crear un blog simple utilizando como tecnologías a React y Tailwind. \n  - [ ] React \n - [ ] Tailwind \n ## Contenido \n Esta es la prueba de contenido \n ### Descripción \n  Esto es una descripción \n \n ```js \n console.log("hola")\n ```',
     preview:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ornare lectus. Duis interdum lectus non ipsum pulvinar, sit amet luctus massa semper...',
     timeRead: 4,
