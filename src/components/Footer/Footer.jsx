@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className='container-custom mt-8'>
       <div
         className='
-        sd:item-center m-1 flex flex-col
+        sd:item-center flex flex-col
         items-center bg-black p-6
         text-xs text-white
         md:flex md:flex-row justify-between'
