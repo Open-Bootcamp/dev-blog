@@ -213,7 +213,7 @@ const data = [
   },
 ]
 
-const author = 'Openbootcamp'
+const author = ['Openbootcamp', 'Luis Martinez', 'Oscar Corral', 'Evelin Aviles']
 const totalPages = Math.ceil(data.length / 6)
 const obtainData = currentPage =>
   data.slice((currentPage - 1) * 6, currentPage * 6)
