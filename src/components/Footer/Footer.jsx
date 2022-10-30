@@ -1,12 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
 import { author } from '../../data/data.js'
 
 const Footer = () => {
   const year = new Date().getFullYear()
 
   return (
-    <footer className='container-custom'>
+    <footer className='container-custom mt-8'>
       <div
         className='
         sd:item-center m-1 flex flex-col
@@ -16,7 +14,7 @@ const Footer = () => {
       >
        {/* author list */}
         <p className='text-center'>{`by ${author[0]}, ${author[1]}, ${author[2]}, ${author[3]} `} &copy; {`${year}`}</p>
-        {/*social media links */}
+        {/* social media links */}
         <div>
           <ul className='my-1 flex flex-row  justify-center items-center'>
             <li className='mx-1 hover:text-openbootcamp-green'>
