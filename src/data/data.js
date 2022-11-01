@@ -10,7 +10,7 @@ const data = [
     id: 1,
     title: 'Creando un blog con React + Tailwind desde cero 1',
     date: new Date(),
-    tags: ['react', 'tailwind', 'ui'],
+    tags: [ 'tailwind'],
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
@@ -24,7 +24,7 @@ const data = [
     id: 2,
     title: 'Creando un blog con React + Tailwind desde cero',
     date: new Date(),
-    tags: ['react', 'tailwind', 'ui'],
+    tags: ['ui'],
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
@@ -38,7 +38,7 @@ const data = [
     id: 3,
     title: 'Creando un blog con React + Tailwind desde cero',
     date: new Date(),
-    tags: ['react', 'tailwind', 'ui'],
+    tags: ['react', 'ui'],
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
@@ -52,7 +52,7 @@ const data = [
     id: 4,
     title: 'Creando un blog con React + Tailwind desde cero',
     date: new Date(),
-    tags: ['react', 'tailwind', 'ui'],
+    tags: ['react'],
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
@@ -80,7 +80,7 @@ const data = [
     id: 6,
     title: 'Creando un blog con React + Tailwind desde cero',
     date: new Date(),
-    tags: ['react', 'tailwind', 'ui'],
+    tags: ['react'],
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
@@ -94,7 +94,7 @@ const data = [
     id: 7,
     title: 'Creando un blog con React + Tailwind desde cero 7',
     date: new Date(),
-    tags: ['react', 'tailwind', 'ui'],
+    tags: ['react'],
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
@@ -108,7 +108,7 @@ const data = [
     id: 8,
     title: 'Creando un blog con React + Tailwind desde cero',
     date: new Date(),
-    tags: ['react', 'tailwind', 'ui'],
+    tags: ['react'],
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
