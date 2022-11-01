@@ -10,7 +10,7 @@ const data = [
     id: 1,
     title: 'Creando un blog con React + Tailwind desde cero 1',
     date: new Date(),
-    tags: [ 'tailwind'],
+    tags: ['tailwind'],
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
@@ -218,7 +218,12 @@ const data = [
   },
 ]
 
-const author = ['Openbootcamp', 'Luis Martinez', 'Oscar Corral', 'Evelin Aviles']
+const author = [
+  'Openbootcamp',
+  'Luis Martinez',
+  'Oscar Corral',
+  'Evelin Aviles',
+]
 const totalPages = Math.ceil(data.length / 6)
 const obtainData = currentPage =>
   data.slice((currentPage - 1) * 6, currentPage * 6)
@@ -251,5 +256,18 @@ const social = [
   },
 ]
 
-export { author, totalPages, obtainData, social }
+const developers = [
+  {
+    name: 'Luis Martínez',
+    github: 'https://github.com/lemartinez',
+    linkedin: 'https://linkedin.com/lemartinezm',
+  },
+  {
+    name: 'Oscar Corral',
+    github: 'https://github.com/webdevelopersbierzo',
+    linkedin: 'https://linkedin.com',
+  },
+]
+
+export { author, totalPages, obtainData, social, developers }
 export default data
