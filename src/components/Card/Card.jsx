@@ -1,9 +1,13 @@
 import propTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
-function Card({ article }) {
+function Card({ article, hasPrincipal }) {
   return (
-    <article className='flex flex-1 flex-col overflow-hidden rounded-md bg-white shadow-sm transition-transform hover:scale-105 md:basis-60 md:first:basis-full md:first:flex-row'>
+    <article
+      className={`${
+        hasPrincipal && 'md:first:basis-full md:first:flex-row'
+      } flex flex-1 flex-col overflow-hidden rounded-md bg-white shadow-sm transition-transform hover:scale-105 md:basis-60`}
+    >
       <Link to={`/article/${article.id}`} className='flex flex-[2]'>
         <img
           src={article.image}
@@ -12,7 +16,7 @@ function Card({ article }) {
         />
       </Link>
       <div className='flex flex-1 flex-col p-6'>
-        <Link  to={`/article/${article.id}`}>
+        <Link to={`/article/${article.id}`}>
           <span className='text-xs font-medium uppercase text-gray-500'>
             {article.tags[0]}
           </span>
@@ -38,4 +42,5 @@ export default Card
 
 Card.propTypes = {
   article: propTypes.any,
+  hasPrincipal: propTypes.bool,
 }
