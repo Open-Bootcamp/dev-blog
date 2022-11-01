@@ -21,8 +21,9 @@ function App() {
           <Route path=':currentPage' element={<Home />} />
         </Route>
         <Route path='/about' element={<About />} />
-        <Route exact path='/tags'>
-          <Route path=':tag' element={<Tag />}  />
+        <Route >
+          <Route exaxt path='/tags' element={<Navigate to='/'/>}/>
+          <Route path='/tags/:tag' element={<Tag />}  />
         </Route>
         <Route path='/article'>
           <Route index element={<Navigate to='/article/1' />} />

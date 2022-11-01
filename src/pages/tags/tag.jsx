@@ -1,4 +1,4 @@
-import { useParams, Navigate } from 'react-router'
+import { useParams } from 'react-router'
 import Hero from '../../components/Hero/Hero'
 import Footer from '../../components/Footer/Footer'
 import Card from '../../components/Card/Card'
@@ -13,7 +13,6 @@ const Tag = () => {
     _articles =>
       _articles.tags.find(_tag => _tag === tagParams.tag) === tagParams.tag
   )
-
 
   return (
     <div className='container-custom mx-auto'>
