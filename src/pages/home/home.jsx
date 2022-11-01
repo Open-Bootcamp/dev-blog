@@ -15,7 +15,7 @@ const Home = () => {
       <div className='flex h-screen flex-col items-center bg-slate-100 px-4 md:px-10'>
         <main className='flex max-w-5xl flex-col flex-wrap gap-8 mb-8 md:flex-row'>
           {data.map((article, index) => (
-            <Card key={`article-${index}`} article={article} />
+            <Card key={`article-${index}`} article={article} hasPrincipal />
           ))}
         </main>
         <Pagination currentPage={currentPage} totalPages={totalPages} />
