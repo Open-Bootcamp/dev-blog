@@ -1,4 +1,9 @@
 import logoOb from '../assets/ob.png'
+import twitter from '../assets/twitter.svg'
+import twitch from '../assets/twitch.svg'
+import github from '../assets/github.svg'
+import youtube from '../assets/youtube.svg'
+import linkedin from '../assets/linkedin.svg'
 
 const data = [
   {
@@ -218,5 +223,33 @@ const totalPages = Math.ceil(data.length / 6)
 const obtainData = currentPage =>
   data.slice((currentPage - 1) * 6, currentPage * 6)
 
-export { author, totalPages, obtainData }
+const social = [
+  {
+    name: 'twitter',
+    link: 'https://twitter.com/Open_Bootcamp',
+    image: twitter,
+  },
+  {
+    name: 'github',
+    link: 'https://github.com/Open-Bootcamp',
+    image: github,
+  },
+  {
+    name: 'twitch',
+    link: 'https://www.twitch.tv/openbootcamp',
+    image: twitch,
+  },
+  {
+    name: 'youtube',
+    link: 'https://www.youtube.com/c/OpenBootcamp',
+    image: youtube,
+  },
+  {
+    name: 'linkedin',
+    link: 'https://www.linkedin.com/school/openbootcamp-escuela/',
+    image: linkedin,
+  },
+]
+
+export { author, totalPages, obtainData, social }
 export default data

@@ -1,9 +1,5 @@
 import { Link } from 'react-router-dom'
-import twitter from '../../assets/twitter.svg'
-import github from '../../assets/github.svg'
-import twitch from '../../assets/twitch.svg'
-import youtube from '../../assets/youtube.svg'
-import linkedin from '../../assets/linkedin.svg'
+import { social } from '../../data/data'
 
 function Header() {
   return (
@@ -19,65 +15,20 @@ function Header() {
           </div>
 
           <div className='hidden md:flex md:gap-4'>
-            <a
-              href='https://twitter.com/Open_Bootcamp'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                src={twitter}
-                alt='twitter logo'
-                className='opacity-70 hover:opacity-100'
-              />
-            </a>
-
-            <a
-              href='https://github.com/Open-Bootcamp'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                src={github}
-                alt='github logo'
-                className='opacity-70 hover:opacity-100'
-              />
-            </a>
-
-            <a
-              href='https://www.twitch.tv/openbootcamp'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                src={twitch}
-                alt='twitch logo'
-                className='opacity-70 hover:opacity-100'
-              />
-            </a>
-
-            <a
-              href='https://www.youtube.com/c/OpenBootcamp'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                src={youtube}
-                alt='youtube logo'
-                className='opacity-70 hover:opacity-100'
-              />
-            </a>
-
-            <a
-              href='https://www.linkedin.com/school/openbootcamp-escuela/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                src={linkedin}
-                alt='linkedin logo'
-                className='opacity-70 hover:opacity-100'
-              />
-            </a>
+            {social.map((item, index) => (
+              <a
+                href={item.link}
+                target='_blank'
+                rel='noreferrer'
+                key={item.name}
+              >
+                <img
+                  src={item.image}
+                  alt={`${item.name} logo`}
+                  className='opacity-70 hover:opacity-100'
+                />
+              </a>
+            ))}
           </div>
         </div>
       </nav>
