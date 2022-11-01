@@ -8,8 +8,7 @@ const HeroCopy = ({author, isImage}) => {
 
   const tagParam = useParams();
   const articleTag = data.filter(_articles => (_articles.tags.find(_tag => _tag ===tagParam.tag)) === tagParam.tag)
-  console.log(articleTag) // TODO: DELETE
-  return (
+   return (
 
        ((isImage !== false
         ?
