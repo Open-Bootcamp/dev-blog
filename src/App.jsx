@@ -9,10 +9,12 @@ import Home from './pages/home/home'
 import About from './pages/about/about'
 import Tag from './pages/tags/tag'
 import Article from './pages/article/Article'
+import Header from './components/Header/Header'
 
 function App() {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path='/'>
           <Route index element={<Home />} />
