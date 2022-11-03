@@ -8,7 +8,7 @@ describe('Hero',()=>{
   })
   it('should show text', ()=>{
     const author = 'Openbootcamp'
-    render(<Hero author={'author'}/>)
+    render(<Hero author={author}/>)
     screen.findByText('Openbootcamp')
 
   })
@@ -20,5 +20,5 @@ describe('Hero',()=>{
   render(<Hero />)
   screen.findByLabelText('img')
  })
-  
+
 })
