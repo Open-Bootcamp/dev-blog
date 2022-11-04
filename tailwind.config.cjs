@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-img': "url(./src/assets/developers.jpeg)",
+        'hero-img': "url(/src/assets/developers.jpeg)",
       },
       colors: {
         'openbootcamp-green': '#0ce78f',

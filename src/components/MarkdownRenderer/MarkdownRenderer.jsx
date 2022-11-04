@@ -29,6 +29,7 @@ function MarkdownRenderer({ content }) {
         li: ({ node, ...props }) => (
           <li className='text-base lg:text-lg' {...props} />
         ),
+        ul: ({ node, ...props }) => <ul className='list-disc p-4' {...props} />,
         code({ node, inline, className, children, ...props }) {
           const match = /language-(\w+)/.exec(className || '')
           return !inline && match ? (

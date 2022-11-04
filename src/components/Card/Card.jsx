@@ -6,13 +6,13 @@ function Card({ article, hasPrincipal }) {
     <article
       className={`${
         hasPrincipal && 'md:first:basis-full md:first:flex-row'
-      } flex flex-1 flex-col overflow-hidden rounded-md bg-white shadow-sm transition-transform hover:scale-105 md:basis-60`}
+      } flex flex-1 flex-col overflow-hidden rounded-md bg-white shadow-sm transition-transform hover:scale-105 md:basis-72`}
     >
       <Link to={`/article/${article.id}`} className='flex flex-[2]'>
         <img
           src={article.image}
           alt='article image'
-          className='w-full object-cover'
+          className='w-full object-cover first:h-full max-h-80'
         />
       </Link>
       <div className='flex flex-1 flex-col p-6'>

@@ -10,7 +10,7 @@ const data = [
     id: 1,
     title: 'Creando un blog con React + Tailwind desde cero 1',
     date: new Date(),
-    tags: ['tailwind'],
+    tags: ['tailwind', 'react'],
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
@@ -24,7 +24,7 @@ const data = [
     id: 2,
     title: 'Creando un blog con React + Tailwind desde cero',
     date: new Date(),
-    tags: ['ui'],
+    tags: ['ui', 'tailwind'],
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
@@ -52,7 +52,7 @@ const data = [
     id: 4,
     title: 'Creando un blog con React + Tailwind desde cero',
     date: new Date(),
-    tags: ['react'],
+    tags: ['react', 'express', 'node'],
     image:
       'https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg',
     authorImage: logoOb,
@@ -218,39 +218,33 @@ const data = [
   },
 ]
 
-const author = [
-  'Openbootcamp',
-  'Luis Martinez',
-  'Oscar Corral',
-  'Evelin Aviles',
-]
 const totalPages = Math.ceil(data.length / 6)
 const obtainData = currentPage =>
   data.slice((currentPage - 1) * 6, currentPage * 6)
 
 const social = [
   {
-    name: 'twitter',
+    name: 'Twitter',
     link: 'https://twitter.com/Open_Bootcamp',
     image: twitter,
   },
   {
-    name: 'github',
+    name: 'GitHub',
     link: 'https://github.com/Open-Bootcamp',
     image: github,
   },
   {
-    name: 'twitch',
+    name: 'Twitch',
     link: 'https://www.twitch.tv/openbootcamp',
     image: twitch,
   },
   {
-    name: 'youtube',
+    name: 'Youtube',
     link: 'https://www.youtube.com/c/OpenBootcamp',
     image: youtube,
   },
   {
-    name: 'linkedin',
+    name: 'LinkedIn',
     link: 'https://www.linkedin.com/school/openbootcamp-escuela/',
     image: linkedin,
   },
@@ -269,5 +263,4 @@ const developers = [
   },
 ]
 
-export { author, totalPages, obtainData, social, developers }
-export default data
+export { data, obtainData, totalPages, social, developers }
