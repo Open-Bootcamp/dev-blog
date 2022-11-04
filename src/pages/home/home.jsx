@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'
+import { Navigate, useParams } from 'react-router-dom'
 import Card from '../../components/Card/Card'
 import Hero from '../../components/Hero/Hero'
 import Pagination from '../../components/Pagination/Pagination'
@@ -8,6 +8,8 @@ const Home = () => {
   let { currentPage } = useParams()
   currentPage = parseInt(currentPage) || 1
   const data = obtainData(currentPage)
+
+  if (data.length === 0) return <Navigate to='/' />
 
   return (
     <div className='mx-auto w-full flex-1'>
