@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <footer className='mt-8 w-full bg-black'>
-      <div className='mx-auto flex max-w-6xl flex-col items-center p-6 text-xs text-white md:flex-row md:justify-between md:px-10'>
+      <div className='mx-auto flex max-w-6xl flex-col items-center p-6 text-xs text-white md:flex-row md:justify-between md:px-10 xl:px-0'>
         <p className='text-center opacity-70'>{`Copyright © ${year} - OpenWeekApps`}</p>
         <div>
           <ul className='my-1 flex flex-row  items-center justify-center'>

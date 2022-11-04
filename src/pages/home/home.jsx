@@ -10,9 +10,9 @@ const Home = () => {
   const data = obtainData(currentPage)
 
   return (
-    <div className='mx-auto w-full'>
+    <div className='mx-auto w-full flex-1'>
       <Hero author={`${author[0]}`} isImage />
-      <div className='mx-auto mt-8 flex min-h-screen max-w-6xl flex-col items-center px-4 md:px-10 lg:-mt-12'>
+      <div className='mx-auto mt-8 flex max-w-6xl flex-col items-center px-4 md:px-10 lg:-mt-12'>
         <main className='mb-8 flex max-w-6xl flex-col flex-wrap gap-8 md:flex-row'>
           {data.map((article, index) => (
             <Card key={`article-${index}`} article={article} hasPrincipal />

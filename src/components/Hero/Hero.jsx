@@ -26,18 +26,11 @@ const HeroCopy = ({ author, isImage }) => {
       </div>
     </header>
   ) : (
-    <header className='container-custom  bg-black sm:h-96'>
-      <div className='flex flex-col items-center p-16'>
-        <img
-          className='shadows-white h-24 w-24 rounded-full border-8 border-double  object-cover shadow-2xl md:h-32 md:w-32'
-          src='../../../src/assets/ob.png'
-          alt=''
-        ></img>
-        <div className='m-1 text-center text-2xl font-bold text-white md:text-4xl'>{`${tagParam.tag}`}</div>
-        <p className=' text-center text-lg font-light text-white'>
-          Hay una coleccion de {articleTag.length} articulos
-        </p>
-      </div>
+    <header className='flex w-full flex-col justify-center gap-4 bg-[#0a0b0c] sm:h-96 md:h-[30rem]'>
+      <div className='m-1 text-center text-2xl font-bold text-white md:text-4xl'>{`${tagParam.tag}`}</div>
+      <p className=' text-center text-lg font-light text-white'>
+        Hay una coleccion de {articleTag.length} artículos
+      </p>
     </header>
   )
 }

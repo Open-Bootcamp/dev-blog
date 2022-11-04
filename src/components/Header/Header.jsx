@@ -4,7 +4,7 @@ import { social } from '../../data/data'
 function Header() {
   return (
     <div className='bg-[#0a0b0c]'>
-      <nav className='mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-8 md:justify-start md:gap-8 md:px-10'>
+      <nav className='mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-8 md:justify-start md:gap-8 md:px-10 xl:px-0'>
         <Link to='/' className='text-xl font-bold text-slate-100'>
           DevBlog
         </Link>

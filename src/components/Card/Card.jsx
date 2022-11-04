@@ -12,7 +12,7 @@ function Card({ article, hasPrincipal }) {
         <img
           src={article.image}
           alt='article image'
-          className='w-full object-cover'
+          className='w-full object-cover first:h-full max-h-80'
         />
       </Link>
       <div className='flex flex-1 flex-col p-6'>
