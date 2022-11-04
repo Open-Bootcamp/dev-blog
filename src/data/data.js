@@ -218,12 +218,6 @@ const data = [
   },
 ]
 
-const author = [
-  'OpenBootcamp',
-  'Luis Martinez',
-  'Oscar Corral',
-  'Evelin Aviles',
-]
 const totalPages = Math.ceil(data.length / 6)
 const obtainData = currentPage =>
   data.slice((currentPage - 1) * 6, currentPage * 6)
@@ -269,5 +263,4 @@ const developers = [
   },
 ]
 
-export { author, totalPages, obtainData, social, developers }
-export default data
+export { data, obtainData, totalPages, social, developers }

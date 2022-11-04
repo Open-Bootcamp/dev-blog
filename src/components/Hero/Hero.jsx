@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import { useParams } from 'react-router'
-import data from '../../data/data'
+import { data } from '../../data/data'
 import ob from '../../../src/assets/ob.png'
 
 const HeroCopy = ({ author, isImage }) => {

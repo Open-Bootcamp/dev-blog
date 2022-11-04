@@ -1,7 +1,7 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
 import Card from '../../components/Card/Card.jsx'
 import MarkdownRenderer from '../../components/MarkdownRenderer/MarkdownRenderer.jsx'
-import data from '../../data/data.js'
+import { data } from '../../data/data.js'
 
 function Articles() {
   const { articleId } = useParams()
@@ -42,7 +42,7 @@ function Articles() {
           alt='Article image'
           className='w-full object-cover xl:max-h-[800px]'
         />
-        <div className='max-w-6xl w-full bg-white p-4 sm:-mt-14 sm:px-10 sm:py-8 md:-mt-24 md:px-16 md:py-10 lg:-mt-32'>
+        <div className='w-full max-w-6xl bg-white p-4 sm:-mt-14 sm:px-10 sm:py-8 md:-mt-24 md:px-16 md:py-10 lg:-mt-32'>
           <MarkdownRenderer content={article.content} />
         </div>
       </main>

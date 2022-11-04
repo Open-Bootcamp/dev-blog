@@ -1,11 +1,10 @@
 import { useParams } from 'react-router'
 import Hero from '../../components/Hero/Hero'
 import Card from '../../components/Card/Card'
-import data from '../../data/data'
+import { data } from '../../data/data'
 
-const Tag = () => {
+function Tag() {
   const tagParams = useParams()
-  console.log(tagParams)
   const articleTag = data.filter(
     _articles =>
       _articles.tags.find(_tag => _tag === tagParams.tag) === tagParams.tag
