@@ -219,7 +219,7 @@ const data = [
 ]
 
 const author = [
-  'Openbootcamp',
+  'OpenBootcamp',
   'Luis Martinez',
   'Oscar Corral',
   'Evelin Aviles',
@@ -230,27 +230,27 @@ const obtainData = currentPage =>
 
 const social = [
   {
-    name: 'twitter',
+    name: 'Twitter',
     link: 'https://twitter.com/Open_Bootcamp',
     image: twitter,
   },
   {
-    name: 'github',
+    name: 'GitHub',
     link: 'https://github.com/Open-Bootcamp',
     image: github,
   },
   {
-    name: 'twitch',
+    name: 'Twitch',
     link: 'https://www.twitch.tv/openbootcamp',
     image: twitch,
   },
   {
-    name: 'youtube',
+    name: 'Youtube',
     link: 'https://www.youtube.com/c/OpenBootcamp',
     image: youtube,
   },
   {
-    name: 'linkedin',
+    name: 'LinkedIn',
     link: 'https://www.linkedin.com/school/openbootcamp-escuela/',
     image: linkedin,
   },

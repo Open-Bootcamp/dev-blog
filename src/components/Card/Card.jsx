@@ -6,7 +6,7 @@ function Card({ article, hasPrincipal }) {
     <article
       className={`${
         hasPrincipal && 'md:first:basis-full md:first:flex-row'
-      } flex flex-1 flex-col overflow-hidden rounded-md bg-white shadow-sm transition-transform hover:scale-105 md:basis-60`}
+      } flex flex-1 flex-col overflow-hidden rounded-md bg-white shadow-sm transition-transform hover:scale-105 md:basis-72`}
     >
       <Link to={`/article/${article.id}`} className='flex flex-[2]'>
         <img

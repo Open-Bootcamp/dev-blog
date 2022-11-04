@@ -10,10 +10,11 @@ import About from './pages/about/about'
 import Tag from './pages/tags/tag'
 import Article from './pages/article/Article'
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
-    <div className='min-h-screen flex flex-col'>
+    <div className='flex min-h-screen flex-col bg-slate-100'>
       <Router>
         <Header />
         <Routes>
@@ -23,15 +24,16 @@ function App() {
           </Route>
           <Route path='/about' element={<About />} />
           <Route>
-            <Route exaxt path='/tags' element={<Navigate to='/' />} />
+            <Route path='/tags' element={<Navigate to='/' />} />
             <Route path='/tags/:tag' element={<Tag />} />
           </Route>
           <Route path='/article'>
             <Route index element={<Navigate to='/article/1' />} />
             <Route path=':articleId' element={<Article />} />
           </Route>
-          {/* TODO: page 404 */}
+          <Route path='*' element={<Navigate to='/' />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   )
