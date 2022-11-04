@@ -14,7 +14,7 @@ import Footer from './components/Footer/Footer'
 
 function App() {
   return (
-    <div className='flex min-h-screen flex-col bg-slate-100'>
+    <div className='flex min-h-screen flex-col'>
       <Router>
         <Header />
         <Routes>
